@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="en-nz">
     <head>
+        <link href="./style.css" rel="stylesheet">
+
         <meta charset="UTF-8">
 
         <title>Polly's Travel Blog</title>
@@ -8,11 +10,11 @@
 
     <body>
         <header>
-            <h1>Polly's Travel Blog</h1>
+            <h1 id="title">Polly's Travel Blog</h1>
         </header>
 
         <nav>
-            <h2>Navigation</h2>
+            <h2 class="nav">Navigation</h2>
             <ul>
                 <li>
                     <a href="#!">
@@ -36,13 +38,13 @@
 
         <main>
             <section>
-                <h2>Polly The Penguin 🐧</h2>
+                <h2 class="penguin">Polly The Penguin 🐧</h2>
 
-                <img src="polly.jpg" alt="Photo of Polly">
+                <img src="polly.jpg" alt="Photo of Polly" class="image">
             </section>
 
             <section>
-                <h2>Leaving Home</h2>
+                <h2 class="leaving">Leaving Home</h2>
 
                 <p>Today I travel for Antarctica!</p>
 
@@ -50,6 +52,46 @@
 
                 <p>I am so excited!</p>
             </section>
+
+            <figure>
+                <img src="polly.jpg" alt="Photo of Polly" id="blur">
+                <figcaption>blur(5px)</figcaption>
+            </figure>
+
+            <figure>
+                <img src="polly.jpg" alt="Photo of Polly" id="invert">
+                <figcaption>inverted</figcaption>
+            </figure>
+
+            <figure>
+                <img src="polly.jpg" alt="Photo of Polly" id="saturate">
+                <figcaption>saturated(200%)</figcaption>
+            </figure>
+
+            <figure>
+                <img src="polly.jpg" alt="Photo of Polly" id="grayscale">
+                <figcaption>grayscale</figcaption>
+            </figure>
+
+            <figure>
+                <img src="polly.jpg" alt="Photo of Polly" id="sepia">
+                <figcaption>sepia</figcaption>
+            </figure>
+
+            <figure>
+                <img src="polly.jpg" alt="Photo of Polly" id="hue-rotate">
+                <figcaption>hue-rotate(270deg)</figcaption>
+            </figure>
+
+            <figure>
+                <img src="polly.jpg" alt="Photo of Polly" id="darken">
+                <figcaption>darken</figcaption>
+            </figure>
+
+            <figure>
+                <img src="polly.jpg" alt="Photo of Polly" id="translucent">
+                <figcaption>translucent</figcaption>
+            </figure>
         </main>
 
         <footer>
